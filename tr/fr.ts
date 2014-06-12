@@ -4,27 +4,27 @@
 <context>
     <name>CommandShutdown</name>
     <message>
-        <location filename="../src/commandshutdown.cpp" line="20"/>
+        <location filename="../src/commandshutdown.cpp" line="22"/>
         <source>Shutdown</source>
         <translation>Extinction</translation>
     </message>
     <message>
-        <location filename="../src/commandshutdown.cpp" line="25"/>
+        <location filename="../src/commandshutdown.cpp" line="27"/>
         <source>The device will shut down at timeout</source>
         <translation>L&apos;appareil s&apos;éteindra à l&apos;échéance</translation>
     </message>
     <message>
-        <location filename="../src/commandshutdown.cpp" line="30"/>
+        <location filename="../src/commandshutdown.cpp" line="32"/>
         <source>The device will stay awake at timeout</source>
         <translation>L&apos;appareil ne s&apos;éteindra pas à l&apos;échéance</translation>
     </message>
     <message>
-        <location filename="../src/commandshutdown.cpp" line="35"/>
+        <location filename="../src/commandshutdown.cpp" line="37"/>
         <source>Cancel next shutdown</source>
         <translation>Annuler l&apos;extinction programmée</translation>
     </message>
     <message>
-        <location filename="../src/commandshutdown.cpp" line="40"/>
+        <location filename="../src/commandshutdown.cpp" line="42"/>
         <source>Re-enable shutdown</source>
         <translation>Réactiver l&apos;extinction programmée</translation>
     </message>
@@ -58,6 +58,24 @@
     </message>
 </context>
 <context>
+    <name>Cover</name>
+    <message>
+        <location filename="../qml/cover/Cover.qml" line="26"/>
+        <source>Listening to</source>
+        <translation>A l&apos;écoute</translation>
+    </message>
+    <message>
+        <location filename="../qml/cover/Cover.qml" line="56"/>
+        <source>Time left</source>
+        <translation>Temps restant</translation>
+    </message>
+    <message>
+        <location filename="../qml/cover/Cover.qml" line="72"/>
+        <source>Not started</source>
+        <translation>Non débuté</translation>
+    </message>
+</context>
+<context>
     <name>CoverPage</name>
     <message>
         <source>ListeningTo</source>
@@ -72,42 +90,113 @@
         <translation type="vanished">Stoppé</translation>
     </message>
     <message>
-        <location filename="../qml/cover/CoverPage.qml" line="56"/>
         <source>Listening to</source>
-        <translation>A l&apos;écoute</translation>
+        <translation type="vanished">A l&apos;écoute</translation>
     </message>
     <message>
-        <location filename="../qml/cover/CoverPage.qml" line="86"/>
         <source>Time left</source>
-        <translation>Temps restant</translation>
+        <translation type="vanished">Temps restant</translation>
     </message>
     <message>
-        <location filename="../qml/cover/CoverPage.qml" line="102"/>
         <source>Not started</source>
-        <translation>Non débuté</translation>
+        <translation type="vanished">Non débuté</translation>
+    </message>
+</context>
+<context>
+    <name>EditPresetDialog</name>
+    <message>
+        <location filename="../qml/pages/EditPresetDialog.qml" line="41"/>
+        <source>Create preset</source>
+        <translation>Créer un preset</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/EditPresetDialog.qml" line="42"/>
+        <source>Edit preset</source>
+        <translation>Modifier un preset</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/EditPresetDialog.qml" line="46"/>
+        <source>Preset details</source>
+        <translation>Détails du preset</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/EditPresetDialog.qml" line="52"/>
+        <source>Preset name</source>
+        <translation>Nom du preset</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/EditPresetDialog.qml" line="61"/>
+        <source>Playlist:</source>
+        <translation>Liste de lecture:</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/EditPresetDialog.qml" line="75"/>
+        <source>Starting volume</source>
+        <translation>Volume de départ</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/EditPresetDialog.qml" line="76"/>
+        <source>Enter 0 to start at system volume</source>
+        <translation>Entrez 0 pour débuter au volume système</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/EditPresetDialog.qml" line="85"/>
+        <source>Action on timeout</source>
+        <translation>Action sur échéance</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/EditPresetDialog.qml" line="94"/>
+        <source>Automatic shutdown</source>
+        <translation>Extinction automatique</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/EditPresetDialog.qml" line="95"/>
+        <source>Shut down device on timeout.</source>
+        <translation>Extinction sur échéance.</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/EditPresetDialog.qml" line="101"/>
+        <source>Automatic silence &amp; exit</source>
+        <translation>Mode silencieux &amp; quitter automatiquement</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/EditPresetDialog.qml" line="102"/>
+        <source>Silence device and exit app on timeout.</source>
+        <translation>Désactive les sons et quitte l&apos;application sur échéance.</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/EditPresetDialog.qml" line="107"/>
+        <source>Playout total duration</source>
+        <translation>Durée totale de lecture</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/EditPresetDialog.qml" line="123"/>
+        <source>Playout volume fading duration</source>
+        <translation>Durée de la diminution de volume</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/EditPresetDialog.qml" line="144"/>
+        <source>Browse imported...</source>
+        <translation>Parcourir...</translation>
     </message>
 </context>
 <context>
     <name>EditPresetMusic</name>
     <message>
-        <location filename="../qml/pages/EditPresetMusic.qml" line="41"/>
         <source>Create preset</source>
-        <translation>Créer un preset</translation>
+        <translation type="vanished">Créer un preset</translation>
     </message>
     <message>
-        <location filename="../qml/pages/EditPresetMusic.qml" line="42"/>
         <source>Edit preset</source>
-        <translation>Modifier un preset</translation>
+        <translation type="vanished">Modifier un preset</translation>
     </message>
     <message>
-        <location filename="../qml/pages/EditPresetMusic.qml" line="46"/>
         <source>Preset details</source>
-        <translation>Détails du preset</translation>
+        <translation type="vanished">Détails du preset</translation>
     </message>
     <message>
-        <location filename="../qml/pages/EditPresetMusic.qml" line="52"/>
         <source>Preset name</source>
-        <translation>Nom du preset</translation>
+        <translation type="vanished">Nom du preset</translation>
     </message>
     <message>
         <source>Currently associated playlist</source>
@@ -118,107 +207,83 @@
         <translation type="vanished">Listes disponibles</translation>
     </message>
     <message>
-        <location filename="../qml/pages/EditPresetMusic.qml" line="61"/>
         <source>Playlist:</source>
-        <translation>Liste de lecture:</translation>
+        <translation type="vanished">Liste de lecture:</translation>
     </message>
     <message>
-        <location filename="../qml/pages/EditPresetMusic.qml" line="75"/>
         <source>Starting volume</source>
-        <translation>Volume de départ</translation>
+        <translation type="vanished">Volume de départ</translation>
     </message>
     <message>
-        <location filename="../qml/pages/EditPresetMusic.qml" line="76"/>
         <source>Enter 0 to start at system volume</source>
-        <translation>Entrez 0 pour débuter au volume système</translation>
+        <translation type="vanished">Entrez 0 pour débuter au volume système</translation>
     </message>
     <message>
-        <location filename="../qml/pages/EditPresetMusic.qml" line="85"/>
         <source>Action on timeout</source>
-        <translation>Action sur échéance</translation>
+        <translation type="vanished">Action sur échéance</translation>
     </message>
     <message>
-        <location filename="../qml/pages/EditPresetMusic.qml" line="98"/>
         <source>Automatic shutdown</source>
-        <translation>Extinction automatique</translation>
+        <translation type="vanished">Extinction automatique</translation>
     </message>
     <message>
-        <location filename="../qml/pages/EditPresetMusic.qml" line="99"/>
         <source>Shut down device on timeout.</source>
-        <translation>Extinction sur échéance.</translation>
+        <translation type="vanished">Extinction sur échéance.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/EditPresetMusic.qml" line="117"/>
         <source>Automatic silence &amp; exit</source>
-        <translation>Mode silencieux &amp; quitter automatiquement</translation>
+        <translation type="vanished">Mode silencieux &amp; quitter automatiquement</translation>
     </message>
     <message>
-        <location filename="../qml/pages/EditPresetMusic.qml" line="118"/>
         <source>Silence device and exit app on timeout.</source>
-        <translation>Désactive les sons et quitte l&apos;application sur échéance.</translation>
+        <translation type="vanished">Désactive les sons et quitte l&apos;application sur échéance.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/EditPresetMusic.qml" line="134"/>
         <source>Playout total duration</source>
-        <translation>Durée totale de lecture</translation>
+        <translation type="vanished">Durée totale de lecture</translation>
     </message>
     <message>
-        <location filename="../qml/pages/EditPresetMusic.qml" line="150"/>
         <source>Playout volume fading duration</source>
-        <translation>Durée de la diminution de volume</translation>
+        <translation type="vanished">Durée de la diminution de volume</translation>
     </message>
     <message>
-        <location filename="../qml/pages/EditPresetMusic.qml" line="171"/>
         <source>Browse imported...</source>
-        <translation>Parcourir...</translation>
+        <translation type="vanished">Parcourir...</translation>
     </message>
 </context>
 <context>
     <name>FirstPage</name>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="45"/>
         <source>Presets</source>
-        <translation>Presets</translation>
+        <translation type="vanished">Presets</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="51"/>
         <source>No presets</source>
-        <translation>Aucun preset</translation>
+        <translation type="vanished">Aucun preset</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="52"/>
-        <source>Pull down to create a preset</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/FirstPage.qml" line="57"/>
         <source>Help</source>
-        <translation>Aide</translation>
+        <translation type="vanished">Aide</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="65"/>
         <source>Add new preset</source>
-        <translation>Ajouter un preset</translation>
+        <translation type="vanished">Ajouter un preset</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="135"/>
         <source>Close preset</source>
-        <translation>Fermer le preset</translation>
+        <translation type="vanished">Fermer le preset</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="144"/>
         <source>Edit</source>
-        <translation>Modifier</translation>
+        <translation type="vanished">Modifier</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="157"/>
         <source>Delete</source>
-        <translation>Supprimer</translation>
+        <translation type="vanished">Supprimer</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="164"/>
         <source>Deleting</source>
-        <translation>Suppression</translation>
+        <translation type="vanished">Suppression</translation>
     </message>
 </context>
 <context>
@@ -515,9 +580,8 @@ Une commande peut être configurée pour chaque preset, dans sa page de configur
         <translation type="vanished">Extinction</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="78"/>
         <source>Close preset</source>
-        <translation>Fermer le preset</translation>
+        <translation type="vanished">Fermer le preset</translation>
     </message>
     <message>
         <source>Cancel next shutdown</source>
@@ -528,9 +592,8 @@ Une commande peut être configurée pour chaque preset, dans sa page de configur
         <translation type="vanished">Réactiver l&apos;extinction programmée</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="117"/>
         <source>Listening to</source>
-        <translation>A l&apos;écoute</translation>
+        <translation type="vanished">A l&apos;écoute</translation>
     </message>
     <message>
         <source>The device will shut down at timeout</source>
@@ -539,6 +602,67 @@ Une commande peut être configurée pour chaque preset, dans sa page de configur
     <message>
         <source>The device will stay awake at timeout</source>
         <translation type="vanished">L&apos;appareil ne s&apos;éteindra pas à l&apos;échéance</translation>
+    </message>
+</context>
+<context>
+    <name>PresetPlayingPage</name>
+    <message>
+        <location filename="../qml/pages/PresetPlayingPage.qml" line="93"/>
+        <source>Close preset</source>
+        <translation>Fermer le preset</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/PresetPlayingPage.qml" line="132"/>
+        <source>Listening to</source>
+        <translation>A l&apos;écoute</translation>
+    </message>
+</context>
+<context>
+    <name>PresetsListPage</name>
+    <message>
+        <location filename="../qml/pages/PresetsListPage.qml" line="15"/>
+        <source>Presets</source>
+        <translation>Presets</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/PresetsListPage.qml" line="21"/>
+        <source>No presets</source>
+        <translation>Aucun preset</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/PresetsListPage.qml" line="22"/>
+        <source>Pull down to create a preset</source>
+        <translation>Utilisez le menu déroulant pour créer un preset</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/PresetsListPage.qml" line="27"/>
+        <source>Help</source>
+        <translation>Aide</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/PresetsListPage.qml" line="35"/>
+        <source>Add new preset</source>
+        <translation>Ajouter un preset</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/PresetsListPage.qml" line="103"/>
+        <source>Close preset</source>
+        <translation>Fermer le preset</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/PresetsListPage.qml" line="112"/>
+        <source>Edit</source>
+        <translation>Modifier</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/PresetsListPage.qml" line="125"/>
+        <source>Delete</source>
+        <translation>Supprimer</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/PresetsListPage.qml" line="132"/>
+        <source>Deleting</source>
+        <translation>Suppression</translation>
     </message>
 </context>
 <context>
