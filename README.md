@@ -1,6 +1,6 @@
 SleepWell!
 =================
-
+[This is a SailfishOS application.]
 SleepWell is a basic media player, able to import your existings playlists. But it does more than that: you can configure presets with a playout duration and also set a volume fading interval.
 Just run SleepWell when you are tired, select your favorite peaceful playlist and listen to it - SleepWell will automatically decrease the device volume as you fall asleep.
 But that is still not all: you are also able to configure your presets to shutdown (or silence) your smartphone when the playout duration has elapsed, to guarantee a good rest.
